@@ -2,7 +2,7 @@
 
 
 
-This repository contains the code to reproduce the results of the NeurIPS 2024 paper [Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists](https://arxiv.org/abs/2404.04269).
+This repository contains the code to reproduce the results of the NeurIPS 2024 paper [Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists](https://openreview.net/pdf?id=wGjSbaMsop).
 
 ## Setup
 
@@ -31,8 +31,8 @@ Run the data preprocessing and the strategic training data manipulation as follo
 ```
 ./preprocessing.sh none 1000 fold_0
 ```
-where the command line parameters refer to
-- the collective strategy: none, ???
+where the command line parameters refer to:
+- the collective strategy: none, random, dirlof, inclust, hybrid, atthebeginning, atindex1, ...
 - the collective budget, i.e., the number of playlists that should be manipulated: any number larger than 1
 - the fold description: any unique string.
 
